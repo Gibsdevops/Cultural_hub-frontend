@@ -28,7 +28,7 @@ import {
  *   profile  — manage provider profile
  */
 const ProviderDashboard = () => {
-  const { } = useAuth();
+  useAuth();
 
   // ── State ────────────────────────────────────────────────────────────────
   const [activeSection, setActiveSection] = useState('home');
