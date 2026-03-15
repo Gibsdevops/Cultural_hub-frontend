@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import {
   ArrowLeft, Share2, CheckCircle, XCircle,
-  Clock, Users, Calendar, MapPin, ChevronRight,
+  Clock, Users, Calendar, ChevronRight,
   Loader2, Star, TrendingUp, Shield,
 } from 'lucide-react';
 import { getPackageById } from '../services/packageService';

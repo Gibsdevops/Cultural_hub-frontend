@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   Settings, LogOut, ChevronRight, MapPin,
-  Calendar, Bookmark, Heart, Users,
+  Calendar, Bookmark, Heart,
   Edit3, Camera, Bell, HelpCircle,
   Shield, Star, Loader2,
 } from 'lucide-react';

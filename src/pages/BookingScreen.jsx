@@ -31,7 +31,7 @@ const BookingScreen = () => {
   const [pkg, setPkg] = useState(null);
   const [loading, setLoading] = useState(true);
   const [bookingLoading, setBookingLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [, setError] = useState(null);
   const [bookingError, setBookingError] = useState('');
   const [confirmed, setConfirmed] = useState(false);
   const [bookingRef, setBookingRef] = useState('');

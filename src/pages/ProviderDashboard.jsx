@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import {
-  Menu, TrendingUp, Calendar, Package,
+  Menu, Calendar, Package,
   Image, Plus, ChevronRight, Loader2,
-  CheckCircle, AlertCircle, Clock,
-  Upload, Trash2, Edit3, X, Camera,
+  CheckCircle, Upload, Trash2, Edit3, X, Camera,
   DollarSign, Users, BarChart2,
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
@@ -29,7 +28,7 @@ import {
  *   profile  — manage provider profile
  */
 const ProviderDashboard = () => {
-  const { user } = useAuth();
+  const { } = useAuth();
 
   // ── State ────────────────────────────────────────────────────────────────
   const [activeSection, setActiveSection] = useState('home');
@@ -137,7 +136,7 @@ const ProviderDashboard = () => {
 // ═══════════════════════════════════════════════════════════════════════════════
 const DashboardHome = ({ data, onNavigate }) => {
   if (!data) return null;
-  const { stats, recent_bookings } = data;
+  const { stats } = data;
 
   return (
     <div className="px-5 pt-5 flex flex-col gap-6">

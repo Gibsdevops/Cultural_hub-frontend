@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import {
   ArrowLeft, MapPin, Mail, Phone, CheckCircle,
-  Heart, Grid, Package, Share2, Loader2,
-  Users, Image, ExternalLink,
+  Heart, Grid, Package, Share2, Loader2, Image, ExternalLink,
 } from 'lucide-react';
 import { getCulturalSite, followSite } from '../services/providerService';
 import { useAuth } from '../context/AuthContext';
